@@ -41,7 +41,7 @@
 
    *Install all packages that this project requires:
    *(Note that this never updates outdated versions of already installed commands, to update commands use adoupdate)
-   local user_commands 	ietoolkit shp2dta
+   local user_commands 	ietoolkit shp2dta geoinpoly
    foreach command of local user_commands {
        cap which `command'
        if _rc == 111 {
@@ -172,7 +172,7 @@
 
    **Set the locals corresponding to the tasks you want
    * run to 1. To not run a task, set the local to 0.
-   local importDo       0
+   local importDo       1
    local cleaningDo     0
    local constructDo    0
    local analysisDo     0
