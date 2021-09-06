@@ -1,0 +1,14 @@
+# Ignore everything
+*
+*.csv
+
+*.csvt
+
+*.dta
+
+*.qgz
+
+# Except for...
+!.do
+!.gitignore
+!.stpr
