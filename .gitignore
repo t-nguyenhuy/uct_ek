@@ -1,5 +1,8 @@
 # Ignore everything
-*
+DataSets/Deidentified
+DataSets/Final
+DataSets/Intermediate
+Output/Raw
 *.csv
 
 *.csvt
