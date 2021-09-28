@@ -82,7 +82,14 @@
    if c(username) == "u1273269" {
        global projectfolder "C:/Users/u1273269/surfdrive/Working folders - PhD/JMP"
    }
+   
+   if c(username) == "nguyenh" {
+       global projectfolder "/home/nguyenh/ownCloud/Working folders - PhD/JMP"
+   }
 
+   if c(username) == "Home-PC" {
+       global projectfolder "G:/Surfdrive/Working folders - PhD/JMP"
+   }
 * These lines are used to test that the name is not already used (do not edit manually)
 
    * Project folder globals
@@ -172,7 +179,7 @@
 
    **Set the locals corresponding to the tasks you want
    * run to 1. To not run a task, set the local to 0.
-   local importDo       1
+   local importDo       0
    local cleaningDo     0
    local constructDo    0
    local analysisDo     0

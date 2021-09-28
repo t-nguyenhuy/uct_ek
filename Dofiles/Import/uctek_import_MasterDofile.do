@@ -10,7 +10,7 @@
 
    ** IDS VAR:          list_ID_var_here         // Uniquely identifies households (update for your project)
    ** NOTES:
-   ** WRITTEN BY:       names_of_contributors
+   ** WRITTEN BY:       Tung Nguyen Huy
    ** Last date modified:  6 Sep 2021
 
 
@@ -18,7 +18,7 @@
    *                                                       *
    * ***************************************************** *
    *
-   *   import_localities.do
+   *   Import_localities.do
    *
    *   The purpose of this dofiles is:
    *     (The ideas below are examples on what to include here)
@@ -32,9 +32,9 @@
 
    * ***************************************************** *
    *
-   *   import dofile 2
+   *   Import tree cover and forest loss data from Google Earth Engine
    *
-   *   The purpose of this dofiles is:
+   *   Raw data extracted from Google Earth Engine
    *     (The ideas below are examples on what to include here)
    *      - what additional data sets does this file require
    *      - what variables are created
@@ -42,7 +42,7 @@
    *
    * ***************************************************** *
 
-       *do "$uctek_doImp/dofile2.do" //Give your dofile a more informative name, this is just a placeholder name
+       do "$uctek_doImp/import_forestloss_treecover.do" //Give your dofile a more informative name, this is just a placeholder name
 
    * ***************************************************** *
    *

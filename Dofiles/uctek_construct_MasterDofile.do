@@ -18,7 +18,7 @@
    *                                                       *
    * ***************************************************** *
    *
-   *   construct dofile 1
+   *   Combine Hansen tree cover dataset
    *
    *   The purpose of this dofiles is:
    *     (The ideas below are examples on what to include here)
@@ -28,7 +28,7 @@
    *
    * ***************************************************** *
 
-       *do "$uctek_doCon/dofile1.do" //Give your dofile a more informative name, this is just a placeholder name
+       do "$uctek_doCon/UCTEK_const_Hansen.do" 
 
    * ***************************************************** *
    *

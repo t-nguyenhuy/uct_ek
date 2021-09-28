@@ -18,7 +18,7 @@
    *                                                       *
    * ***************************************************** *
    *
-   *   analysis dofile 1
+   *   Exploratory analysis, built on row data
    *
    *   The purpose of this dofiles is:
    *     (The ideas below are examples on what to include here)
@@ -28,7 +28,7 @@
    *
    * ***************************************************** *
 
-       *do "$uctek_doAnl/dofile1.do" //Give your dofile a more informative name, this is just a placeholder name
+       do "$uctek_doAnl/uct_ek_Exploratory_Analysis.do" //Give your dofile a more informative name, this is just a placeholder name
 
    * ***************************************************** *
    *
